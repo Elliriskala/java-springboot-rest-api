@@ -1,0 +1,22 @@
+{
+    "categories": [
+        {
+        "category_name": "Mammals"
+        },
+        {
+        "category_name": "Birds"
+        },
+        {
+        "category_name": "Reptiles"
+        },
+        {
+        "category_name": "Amphibians"
+        },
+        {
+        "category_name": "Fish"
+        },
+        {
+        "category_name": "Insects"
+        }
+    ]
+}

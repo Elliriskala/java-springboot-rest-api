@@ -1,0 +1,55 @@
+{
+    "species": [
+        {
+        "id": 1,
+        "species_name": "Cat",
+        "category_id": 1,
+        "location_name": "Middle East",
+        "latitude": 35.2131,
+        "longitude": 38.9968,
+        "image": "https://example.com/cat.jpg"
+        },
+        {
+        "id": 2,
+        "species_name": "Bald Eagle",
+        "category_id": 2,
+        "location_name": "North America",
+        "latitude":  64.0685,
+        "longitude": -152.2782,
+        "image": "https://example.com/eagle.jpg"
+        },
+        {
+        "id": 3,
+        "species_name": "Sea Turtle",
+        "category_id": 3,
+        "location_name": "Pacific Ocean",
+        "latitude": 21.3099,
+        "longitude": -157.8581,
+        "image": "https://example.com/turtle.jpg"
+        },
+        {
+        "species_name": "African Lion",
+        "category_id": 1,
+        "location_name": "African Savanna",
+        "latitude": -1.2921,
+        "longitude": 36.8219,
+        "image": "https://example.com/lion.jpg"
+        },
+        {
+        "species_name": "Emperor Penguin",
+        "category_id": 2,
+        "location_name": "Antarctica",
+        "latitude": -77.8462,
+        "longitude": 166.6890,
+        "image": "https://example.com/penguin.jpg"
+        },
+        {
+        "species_name": "Golden Retriever",
+        "category_id": 1,
+        "location_name": "Scotland",
+        "latitude": 56.4907,
+        "longitude": -4.2026,
+        "image": "https://example.com/golden.jpg"
+        }
+    ]
+}

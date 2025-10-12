@@ -1,0 +1,95 @@
+{
+"animals": [
+    {
+        "id": 1,
+        "animal_name": "Popo",
+        "species_id": 1,
+        "birthdate": "2010-03-15",
+        "location_name": "Helsinki",
+        "latitude": 60.1699,
+        "longitude": 24.9384
+    },
+    {
+        "id": 2,
+        "animal_name": "Miuku-Irmeli",
+        "species_id": 2,
+        "birthdate": "2015-06-20",
+        "location_name": "Yellowstone National Park",
+        "latitude": 44.4280,
+        "longitude": -110.5885
+    },
+    {
+        "id": 3,
+        "animal_name": "Mai-Kilppari",
+        "species_id": 3,
+        "birthdate": "2018-08-10",
+        "location_name": "Great Barrier Reef",
+        "latitude": -18.2871,
+        "longitude": 147.6992
+    },
+    {
+    "animal_name": "Mikko",
+    "species_id": 4,
+    "birthdate": "2019-07-15",
+    "location_name": "London Zoo",
+    "latitude": 51.5358,
+    "longitude": -0.1534
+},
+{
+    "animal_name": "Veijo",
+    "species_id": 2,
+    "birthdate": "2021-12-03",
+    "location_name": "New York",
+    "latitude": 40.7829,
+    "longitude": -73.9654
+},
+{
+    "animal_name": "Nemo",
+    "species_id": 3,
+    "birthdate": "2022-04-22",
+    "location_name": "California",
+    "latitude": 36.6023,
+    "longitude": -121.9023
+},
+{
+    "animal_name": "Luna",
+    "species_id": 1,
+    "birthdate": "2020-09-12",
+    "location_name": "Helsinki",
+    "latitude": 60.1699,
+    "longitude": 26
+},
+{
+    "animal_name": "Antti",
+    "species_id": 2,
+    "birthdate": "2017-03-08",
+    "location_name": "Grand Canyon",
+    "latitude": 36.1069,
+    "longitude": -112.1129
+},
+{
+    "animal_name": "Joel",
+    "species_id": 3,
+    "birthdate": "2019-11-25",
+    "location_name": "Mediterranean Sea",
+    "latitude": 39.4699,
+    "longitude": 2.9581
+},
+{
+    "animal_name": "Minni",
+    "species_id": 5,
+    "birthdate": "2022-01-14",
+    "location_name": "Paris",
+    "latitude": 48.8566,
+    "longitude": 2.3522
+},
+{
+    "animal_name": "Simo",
+    "species_id": 6,
+    "birthdate": "2021-07-30",
+    "location_name": "Costa Rica Beach",
+    "latitude": 9.7489,
+    "longitude": -85.6430
+}
+]
+}
