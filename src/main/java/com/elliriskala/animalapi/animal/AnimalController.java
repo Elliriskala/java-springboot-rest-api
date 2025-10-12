@@ -29,8 +29,14 @@ public class AnimalController {
         this.animalRepository = animalRepository;
     }
 
-    // get all animals
-    @GetMapping("")
+    // get all animals (no pagination)
+    @GetMapping("/all")
+    List<Animal> findAllAnimals() {
+        return animalRepository.findAll();
+    }
+
+    // get paginated animals
+    @GetMapping("/paginated")
     List<Animal> findAll(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size,

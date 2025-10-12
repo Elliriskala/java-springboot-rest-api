@@ -92,7 +92,7 @@ public class AnimalRepository {
     // create a new animal
     public void create(Animal animal) {
         var updated = jdbcClient.sql(
-                "INSERT INTO Animals(animal_name, species_id, birthdate, location_name, latitude, longitude) values(?, ?, ?, ?, ?, ?)")
+                "INSERT INTO animals(animal_name, species_id, birthdate, location_name, latitude, longitude) values(?, ?, ?, ?, ?, ?)")
                 .params(List.of(animal.animal_name(), animal.species_id(), animal.birthdate(),
                         animal.location_name(), animal.latitude(), animal.longitude()))
                 .update();
@@ -103,7 +103,7 @@ public class AnimalRepository {
     // update an animal
     public void update(Animal animal, Long id) {
         var updated = jdbcClient.sql(
-                "UPDATE Animals SET animal_name = ?, species_id = ?, birthdate = ?, location_name = ?, latitude = ?, longitude = ? WHERE id = ?")
+                "UPDATE animals SET animal_name = ?, species_id = ?, birthdate = ?, location_name = ?, latitude = ?, longitude = ? WHERE id = ?")
                 .params(List.of(animal.animal_name(), animal.species_id(), animal.birthdate(),
                         animal.location_name(), animal.latitude(), animal.longitude(), id))
                 .update();
@@ -113,7 +113,7 @@ public class AnimalRepository {
 
     // delete an animal
     public void delete(Long id) {
-        var updated = jdbcClient.sql("DELETE FROM Animals WHERE id = ?")
+        var updated = jdbcClient.sql("DELETE FROM animals WHERE id = ?")
                 .param(1, id)
                 .update();
 

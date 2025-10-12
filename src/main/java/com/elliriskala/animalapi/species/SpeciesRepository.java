@@ -48,7 +48,7 @@ public class SpeciesRepository {
     // create a new species
     public void create(Species species) {
         var updated = jdbcClient.sql(
-                "INSERT INTO Species(species_name, category_id, location_name, latitude, longitude, image) values(?, ?, ?, ?, ?, ?)")
+                "INSERT INTO species(species_name, category_id, location_name, latitude, longitude, image) values(?, ?, ?, ?, ?, ?)")
                 .params(List.of(species.species_name(), species.category_id(),
                         species.location_name(), species.latitude(), species.longitude(),
                         species.image() != null ? species.image() : ""))
@@ -60,7 +60,7 @@ public class SpeciesRepository {
     // update a species
     public void update(Species species, Long id) {
         var updated = jdbcClient.sql(
-                "UPDATE Species SET species_name = ?, category_id = ?, location_name = ?, latitude = ?, longitude = ?, image = ? WHERE id = ?")
+                "UPDATE species SET species_name = ?, category_id = ?, location_name = ?, latitude = ?, longitude = ?, image = ? WHERE id = ?")
                 .params(List.of(species.species_name(), species.category_id(), species.location_name(), species.latitude(),
                         species.longitude(), species.image(), id))
                 .update();
@@ -70,7 +70,7 @@ public class SpeciesRepository {
 
     // delete a species
     public void delete(Long id) {
-        var updated = jdbcClient.sql("DELETE FROM Species WHERE id = ?")
+        var updated = jdbcClient.sql("DELETE FROM species WHERE id = ?")
                 .param(1, id)
                 .update();
 
