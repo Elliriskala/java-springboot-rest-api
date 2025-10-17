@@ -17,13 +17,16 @@ This is a REST API for animal data management, built with Java Spring Boot. The 
 ## Assignment completion
 
 ### Step 1 & 2: Study & implement API 
-- **Technology**: Java Spring Boot + MariaDB
-- **CRUD Operations**: All implemented (GET, POST, PUT, DELETE)
+**Technology**: Java Spring Boot + MariaDB
+**CRUD Operations**: All implemented (GET, POST, PUT, DELETE)
 
 ### Step 3: Advanced features
 **Filtering** - Filter by animal id OR name, filter animals and species by species id, location name OR species id + location name  
+
 **Sorting** - Sort animals and species by alphabetical order  
+
 **Pagination** - Result pagination with page and size parameters and sort by name in ascending or descending order (eg. page=1&size=5&sort=animal_name, asc)
+
 **Validation** - Input validation with Jakarta Validation  
 
 ### Step 4: Documentation
