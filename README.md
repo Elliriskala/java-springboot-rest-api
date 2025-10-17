@@ -2,15 +2,6 @@
 
 This is a REST API for animal data management, built with Java Spring Boot. The API provides CRUD operations for animal data along with advanced features like filtering, sorting, and pagination.
 
-### Source code
-
-- **GitHub**: https://github.com/Elliriskala/java-springboot-rest-api
-
-### Links
-
-- **API Base URL**: http://10.120.32.76:8080/api/animals
-- **Swagger**: http://10.120.32.76:8080/swagger-ui.html
-
 ### Technologies
 
 - **Java 17**
@@ -30,18 +21,17 @@ This is a REST API for animal data management, built with Java Spring Boot. The 
 - **CRUD Operations**: All implemented (GET, POST, PUT, DELETE)
 
 ### Step 3: Advanced features
-**Filtering Features** - Filter by animal id OR name, filter animals and species by species id, location name OR species id + location name  
-**Sorting** - Sort by alphabetical order  
-**Pagination** - Result pagination with page/size parameters and sort by name in ascending or descending order  
+**Filtering** - Filter by animal id OR name, filter animals and species by species id, location name OR species id + location name  
+**Sorting** - Sort animals and species by alphabetical order  
+**Pagination** - Result pagination with page and size parameters and sort by name in ascending or descending order (eg. page=1&size=5&sort=animal_name, asc)
 **Validation** - Input validation with Jakarta Validation  
 
 ### Step 4: Documentation
 **API Documentation** - Swagger
 
 ### Step 5: Deployment
-**Production Deployment** - Docker + Rocky Linux VM
+**Production Deployment** - Docker + Rocky Linux VM (Metropolia E-cloud VM)
 
 ### API Testing
 
-Use Swagger UI for testing:
-http://10.120.32.76:8080/swagger-ui.html
+Use Swagger UI for testing: http://10.120.32.76:8080/swagger-ui.html
